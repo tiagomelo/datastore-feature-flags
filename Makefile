@@ -11,4 +11,4 @@ datastore-stop:
 test: datastore-start
 	@export DATASTORE_EMULATOR_HOST=127.0.0.1:8084; \
 	go test -v ./...
-	@$(MAKE) datastore-stop
+	@$(MAKE) -s datastore-stop
