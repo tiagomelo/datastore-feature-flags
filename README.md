@@ -3,7 +3,7 @@
 A small toolkit that enable any Golang project to use Datastore entities (https://cloud.google.com/datastore/) as a simple feature flags mechanism (https://en.wikipedia.org/wiki/Feature_toggle).
 
 ## Prerequisites
-- A Google Cloud Platform [project](https://cloud.google.com/resource-manager/docs/creating-managing-projects) and a (service account)[https://cloud.google.com/iam/docs/creating-managing-service-accounts] for it
+- [A Google Cloud Platform project](https://cloud.google.com/resource-manager/docs/creating-managing-projects) and a [service account](https://cloud.google.com/iam/docs/creating-managing-service-accounts) for it
 - [A service account key (as JSON)](https://cloud.google.com/iam/docs/creating-managing-service-account-keys) for the service account and [GOOGLE_APPLICATION_CREDENTIALS](https://cloud.google.com/docs/authentication/getting-started?hl=en#setting_the_environment_variable) environment variable with its path
 - [A Google Cloud Datastore instance](https://cloud.google.com/datastore/docs/quickstart) in [Datastore Mode](https://cloud.google.com/datastore/docs/quickstart?hl=en#firestore-or-datastore)
 - For unit testing:
