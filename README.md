@@ -8,8 +8,8 @@ A small toolkit that enable any Golang project to use Datastore entities (https:
 - [A Google Cloud Datastore instance](https://cloud.google.com/datastore/docs/quickstart) in [Datastore Mode](https://cloud.google.com/datastore/docs/quickstart?hl=en#firestore-or-datastore)
 - For unit testing:
     - a Java 8+ JRE must be installed and on your system PATH
-    - [Google Cloud SDK](https://cloud.google.com/sdk/docs/downloads-apt-get)
-    - [Google Cloud SDK Datastore Emulator](https://cloud.google.com/sdk/docs/components#additional_components)
+    - [Google Cloud SDK](https://cloud.google.com/sdk/install)
+    - [Google Cloud SDK Datastore Emulator](https://cloud.google.com/datastore/docs/tools/datastore-emulator)
 
 ## Basic usage
 
